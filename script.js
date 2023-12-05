@@ -10,7 +10,7 @@ function toggleMode() {
   // }
 
   // Pegar a Tag img
-  const img = document.createElement("#profile img")
+  const img = document.querySelector("#profile img")
 
   // Substituir a imagem
   if (html.classList.contains("light")) {
